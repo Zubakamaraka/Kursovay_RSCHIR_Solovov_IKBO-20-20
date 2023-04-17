@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+
+  nginx:
+    build: ./nginx/
+    container_name: nginx-container
+    ports:
+      - "80:80"
+    links:
+      - php
+    volumes:
+      - ./www/html:/var/www/html
+
+  php:
+    build: ./php/
+    container_name: php_container
+    expose:
+      - 9000
+    volumes:
+      - ./www/html:/var/www/html/
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: gamestore
+
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"

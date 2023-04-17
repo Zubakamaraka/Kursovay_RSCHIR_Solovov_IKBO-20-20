@@ -1,0 +1,70 @@
+#carousel
+{
+height: max-content;
+margin-bottom: 15px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+#owl-carousel
+{
+height: max-content;
+width: max-content;
+position: relative;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#owl-carousel *
+{
+box-sizing: border-box;
+}
+
+#owl-carousel .js-next,
+#owl-carousel .js-prev
+{
+display: block;
+position: absolute;
+color: white;
+width: 100px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#owl-carousel .js-prev
+{
+left: 0;
+}
+
+#owl-carousel .js-next
+{
+right: 0;
+}
+
+#owl-carousel .js-next span,
+#owl-carousel .js-prev span
+{
+border-top: 10px solid #f22bec;
+border-left: 10px solid #f22bec;
+width: 50px;
+height: 50px;
+transform: rotate(-45deg);
+}
+
+#owl-carousel .js-next span
+{
+transform: rotate(135deg);
+}
+
+#owl-carousel .js-next:hover,
+#owl-carousel .js-prev:hover
+{
+background: rgba(255, 255, 255, 0.5);
+box-shadow: -8px 25px 10px 8px #202020;
+transform: translateY(-10px);
+}

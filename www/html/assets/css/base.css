@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+scroll-behavior: smooth;
+}
+body
+{
+font-family: 'Press Start 2P', cursive;
+background: #0d0d0d;
+color: #fff;
+}
+
+#shop_name
+{
+color: #64dfdf;
+}
+
+header
+{
+display: flex;
+justify-content: space-between;
+align-items: center ;
+padding: 15px 25px;
+background: #1f1f1f;
+box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+#logo
+{
+width: 50px;
+transition: 0.3s;
+}
+
+#logo:hover
+{
+transform: scale(1.1);
+}
+
+section
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#profile_btn
+{
+background-color: #1f1f1f;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+border-radius: 20px;
+transition: 0.3s;
+}
+
+#profile_btn a
+{
+color: #64dfdf;
+padding: 12px 10px;
+text-decoration: none;
+text-align: center;
+display: block;
+}
+
+#profile_btn:hover
+{
+transform: scale(1.1);
+}
+
+.menu
+{
+width: 50px;
+transition: 0.3s;
+}
+
+.menu:hover
+{
+transform: rotate(90deg);
+}
+
+.dropdown
+{
+margin: 0 15px;
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content
+{
+display: none;
+position: absolute;
+right: 0;
+background-color: #1f1f1f;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+border-radius: 20px;
+z-index: 1;
+}
+
+.dropdown-content a
+{
+color: #64dfdf;
+padding: 12px 16px;
+text-decoration: none;
+text-align: center;
+display: block;
+}
+
+.dropdown-content a:hover
+{
+background-color: #64dfdf;
+color: #1f1f1f;
+border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content
+{
+display: block;
+}
+
+footer
+{
+padding: 20px 20vh;
+background-color: #1f1f1f;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+footer div
+{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+footer div a
+{
+text-decoration: none;
+color: silver;
+margin-bottom: 10px;
+
+}
+
+#media
+{
+display: flex;
+flex-direction: row;
+}
+
+#media a
+{
+margin: 0 10px;
+}
+
+#media img
+{
+transition: 0.3s;
+}
+#media img:hover
+{
+    transform: scale(1.2);
+}
+

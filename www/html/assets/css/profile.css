@@ -1,0 +1,109 @@
+/* Add a gaming-inspired font */
+body {
+    font-family: 'Press Start 2P', cursive;
+    }
+    
+    /* Add background images */
+    body {
+    background-image: url('https://abrakadabra.fun/uploads/posts/2022-02/1643977783_1-abrakadabra-fun-p-krutie-geimerskie-oboi-na-pk-ustanovit-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    /* Style the cart section */
+    #cart {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #00ff00;
+    }
+    
+    #cart_name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    }
+    
+    .game {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #000;
+    border: 2px solid #00ff00;
+    }
+    
+    .game-img {
+    width: 100%;
+    }
+    
+    .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .count {
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5rem;
+    }
+    
+    .deleteBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    }
+    
+    .deleteBtn:hover {
+    color: #00ff00;
+    }
+    
+    /* Style the profile section */
+    #profile {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #00ff00;
+    color: #fff;
+    }
+    
+    #profile_name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    }
+    
+    .profile_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    #user-photo {
+    margin-bottom: 10px;
+    border: 2px solid #00ff00;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    }
+    
+    .logout {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #00ff00;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    }
+    
+    .logout:hover {
+    background-color: #fff;
+    color: #000;
+    }
+    
+    
